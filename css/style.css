@@ -63,6 +63,7 @@ a{
     position: relative;
 }
 
+
 .heart{
     position: absolute;
     z-index: 1;
@@ -76,9 +77,21 @@ a{
     right: 0;
 }
 
-.div_img img{
+.main_img{
     position: relative;
     width: 100%;
+}
+
+.img_none{
+    display: none;
+}
+
+.hover_zone:hover .img_none{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .product_tag{
