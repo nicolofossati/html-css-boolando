@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #FF6900;
+    display: flex;
+    align-items: center;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto;
+}
+
+.nav_header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo_header{
+    width: 100px;
+}
+
+.login_area i{
+    color: white;
+    padding: 0 4px;
+}
+
+.fa-bag-shopping{
+    padding-right: 0;
+}
