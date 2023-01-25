@@ -58,16 +58,52 @@ a{
 
 .div_img{
     width: calc(100% / 3 - 20px);
-    position: relative;
     display: inline-block;
     margin: 50px 10px 0;
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    z-index: 1;
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    top: 8px;
+    right: 0;
 }
 
 .div_img img{
-    position: absolute;
     position: relative;
     width: 100%;
 }
+
+.product_tag{
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    bottom: 70px;
+}
+
+.tag{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px 6px;
+    color: white;
+
+}
+
+.discount{
+    background-color: #FF0000;
+}
+
+.sustainability{
+    background-color: #008000;
+}
+
 
 .description{
     color: black;
@@ -83,6 +119,9 @@ a{
     font-size: 18px;
 }
 
+.price{
+    font-size: 18px;
+}
 
 .price .new_price{
     color: #FF6900;
