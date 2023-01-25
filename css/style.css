@@ -43,6 +43,25 @@ a{
     padding: 0 4px;
 }
 
-.fa-bag-shopping{
-    padding-right: 0;
+.div_img{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+    display: inline-block;
+    margin: 50px 10px 0;
+}
+
+.div_img img{
+    position: absolute;
+    position: relative;
+    width: 100%;
+}
+
+.description{
+    color: black;
+}
+
+.row-main-container{
+    width: 1170px;
+    margin: auto;
+    font-size: 0;
 }
